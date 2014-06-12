@@ -17,8 +17,8 @@ unix {
 }
 
 macx {
- PGSQL_LIB = /Library/PostgreSQL/9.3/lib/libpq.dylib
- PGSQL_INC = /Library/PostgreSQL/9.3/include
+ PGSQL_LIB = /Applications/Postgres.app/Contents/Versions/9.3//lib/libpq.dylib
+ PGSQL_INC = /Applications/Postgres.app/Contents/Versions/9.3/include
  XML_INC = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/include/libxml2
  XML_LIB = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libxml2.dylib
 }
